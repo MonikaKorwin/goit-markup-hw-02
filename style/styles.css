@@ -6,6 +6,10 @@
 
 body {
     font-family:var(--main-font)
+    
+}
+
+
 }
 /* =============HEADER INDEX.HTML============ */
 .navigation-list-item {
@@ -14,6 +18,8 @@ body {
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: #212121;
+    life-style: none; 
+    
 }
 .navigation-list-item:hover,
 .navigation-list-item:focus {
