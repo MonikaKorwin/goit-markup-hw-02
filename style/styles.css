@@ -12,13 +12,20 @@ body {
 
 }
 /* =============HEADER INDEX.HTML============ */
+.navigation-link {
+    text-decoration: none;
+}
+.navigation-list {
+    text-decoration: none;
+    list-style: none;
+}
 .navigation-list-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: #212121;
-    life-style: none; 
+    list-style: none; 
     
 }
 .navigation-list-item:hover,
