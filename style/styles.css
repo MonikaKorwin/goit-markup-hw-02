@@ -10,11 +10,11 @@ body {
 
 /* =============HEADER INDEX.HTML============ */
 
-.navigation-link {
+.navigation-link,
+.address-logo {
   text-decoration: none;
 }
 .navigation-list {
-  text-decoration: none;
   list-style: none;
 }
 
@@ -24,7 +24,7 @@ body {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #212121;
-  list-style: none;
+  text-decoration: none;
 }
 .navigation-list-item:hover,
 .navigation-list-item:focus {
@@ -38,6 +38,7 @@ body {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .mail:hover,
 .mail:focus {
@@ -128,14 +129,14 @@ body {
   background-color: #2f303a;
 }
 .address-mail,
-.address-phone {
-  text-decoration: none;
+.address-phone { 
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6); 
+  text-decoration: none;
 }
 
 /* =============FOOTER INDEX.HTML============ */
@@ -144,32 +145,33 @@ body {
 .navigation-list-item-portfolio {
   color: var(--main-color);
 }
+
+ 
+  
+
 .button-portfolio {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 625;
+  line-height: 1,625;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
-}
+  list-style:none;
 
-.filter {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 625;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  
 }
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #FFFFFF; 
+  background-color: var(--main-color);
 
-.filter:hover,
+
+/* .filter:hover,
 .filter:focus {
-  color: #ffffff;
+  color: #ffffff; */
 }
 .filers-examples {
   font-weight: bold;
