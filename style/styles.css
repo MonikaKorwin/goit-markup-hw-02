@@ -1,6 +1,6 @@
 :root {
---main-font: font-family: 'Roboto', sans-serif; 
---socondary-font: font-family: 'Raleway', sans-serif;
+--main-font:  'Roboto', sans-serif; 
+--socondary-font: 'Raleway', sans-serif;
 --main-color: #2196F3;
 }
 
@@ -9,16 +9,16 @@ body {
     
 }
 
-
-}
 /* =============HEADER INDEX.HTML============ */
-.navigation-link {
+.header {
     text-decoration: none;
+    list-style: none;
 }
 .navigation-list {
     text-decoration: none;
     list-style: none;
 }
+
 .navigation-list-item {
     font-weight: 500;
     font-size: 14px;
@@ -59,20 +59,24 @@ line-height: 1,363;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-/* color: #FFFFFF;     */
+color: #FFFFFF;     
+background: #2F303A;
+
 }
-.hero > .button {
-    font-family: Roboto;
+
+
+.button {
+font-family: Roboto;
 font-weight: bold;
 font-size: 16px;
 line-height: 1,875;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-background-color: var(--main-color);
-cursor: pointer;
-/* color: #FFFFFF; */
+color: #FFFFFF; 
+background:var(--main-color); 
+cursor:pointer;
+
 }
 .LOREM_IPSUM_ITEM {
 font-weight: bold;
@@ -99,6 +103,10 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121; 
  }  
+
+ .team {
+background-color: #F5F4FA;
+ }
 .team_member {
 font-weight: 500;
 font-size: 16px;
@@ -121,7 +129,9 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1,714;
 letter-spacing: 0.03em;
-/* color: #FFFFFF; */
+color: #FFFFFF; 
+background-color: #2F303A;
+
 }
 .address-mail,.address-phone {
 text-decoration: none;
@@ -139,6 +149,18 @@ letter-spacing: 0.03em;
 /* =============FOOTER PORTFOLIO.HTML============ */
 .navigation-list-item-portfolio{
      color: var(--main-color)
+}
+.button-portfolio{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,625;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121; 
+background: #F5F4FA;
+border-radius: 4px;
 }
 
 
